@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses | CampusHub University Portal</title>
+</head>
+<body>
+
+    <header>
+        <h1>CampusHub</h1>
+        <p>Your gateway to university learning</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html" aria-current="page">Courses</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="courses-heading">
+            <h2 id="courses-heading">Our Courses</h2>
+            <p>
+                Explore our academic programs and discover courses designed
+                to develop your knowledge, skills, and future career.
+                CampusHub offers opportunities across technology, business,
+                design, and other fields of study.
+            </p>
+        </section>
+
+        <section aria-labelledby="course-search-heading">
+            <h2 id="course-search-heading">Find Your Course</h2>
+
+            <form action="courses.html" method="get">
+                <div>
+                    <label for="course-search">Search courses</label>
+                    <input
+                        type="search"
+                        id="course-search"
+                        name="search"
+                        placeholder="Search by course name or keyword"
+                    >
+                </div>
+
+                <div>
+                    <label for="department">Department</label>
+                    <select id="department" name="department">
+                        <option value="">All Departments</option>
+                        <option value="computer-science">Computer Science</option>
+                        <option value="business">Business and Management</option>
+                        <option value="design">Arts and Design</option>
+                        <option value="engineering">Engineering</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="level">Study Level</label>
+                    <select id="level" name="level">
+                        <option value="">All Levels</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+
+                <button type="submit">Search Courses</button>
+            </form>
+        </section>
+
+        <nav aria-label="Course categories">
+            <h2>Browse Categories</h2>
+            <ul>
+                <li><a href="#web-development">Web Development</a></li>
+                <li><a href="#database-systems">Database Systems</a></li>
+                <li><a href="#data-structures">Data Structures</a></li>
+                <li><a href="#digital-marketing">Digital Marketing</a></li>
+                <li><a href="#graphic-design">Graphic Design</a></li>
+                <li><a href="#software-engineering">Software Engineering</a></li>
+            </ul>
+        </nav>
+
+        <section aria-labelledby="available-courses-heading">
+            <h2 id="available-courses-heading">Available Courses</h2>
+
+            <article id="web-development">
+                <h3>Web Development</h3>
+                <img
+                    src="images/web-development.jpg"
+                    alt="Computer displaying HTML and web development code"
+                    width="400"
+                    height="250"
+                >
+                <p>
+                    Learn the fundamentals of building accessible and
+                    responsive websites using HTML, CSS concepts, and
+                    modern web development practices.
+                </p>
+                <p><strong>Department:</strong> Computer Science</p>
+                <p><strong>Level:</strong> Beginner</p>
+                <p><strong>Credits:</strong> 6 ECTS</p>
+                <p><a href="course-details.html?course=web-development">View Details: Web Development</a></p>
+            </article>
+
+            <article id="database-systems">
+                <h3>Database Systems</h3>
+                <img
+                    src="images/database-systems.jpg"
+                    alt="Database server equipment representing data storage and management"
+                    width="400"
+                    height="250"
+                >
+                <p>
+                    Understand relational databases, data modeling,
+                    SQL queries, and the principles of reliable data
+                    storage and retrieval.
+                </p>
+                <p><strong>Department:</strong> Computer Science</p>
+                <p><strong>Level:</strong> Intermediate</p>
+                <p><strong>Credits:</strong> 6 ECTS</p>
+                <p><a href="course-details.html?course=database-systems">View Details: Database Systems</a></p>
+            </article>
+
+            <article id="data-structures">
+                <h3>Data Structures and Algorithms</h3>
+                <img
+                    src="images/data-structures.jpg"
+                    alt="Computer science notes illustrating algorithms and data structures"
+                    width="400"
+                    height="250"
+                >
+                <p>
+                    Study arrays, linked lists, stacks, queues, trees,
+                    sorting, and searching algorithms to solve
+                    computational problems efficiently.
+                </p>
+                <p><strong>Department:</strong> Computer Science</p>
+                <p><strong>Level:</strong> Intermediate</p>
+                <p><strong>Credits:</strong> 7 ECTS</p>
+                <p><a href="course-details.html?course=data-structures">View Details: Data Structures and Algorithms</a></p>
+            </article>
+
+            <article id="digital-marketing">
+                <h3>Digital Marketing</h3>
+                <img
+                    src="images/digital-marketing.jpg"
+                    alt="Digital marketing analytics displayed on a computer screen"
+                    width="400"
+                    height="250"
+                >
+                <p>
+                    Explore search engine optimization, social media
+                    strategy, online advertising, and digital campaign
+                    planning for modern businesses.
+                </p>
+                <p><strong>Department:</strong> Business and Management</p>
+                <p><strong>Level:</strong> Beginner</p>
+                <p><strong>Credits:</strong> 5 ECTS</p>
+                <p><a href="course-details.html?course=digital-marketing">View Details: Digital Marketing</a></p>
+            </article>
+
+            <article id="graphic-design">
+                <h3>Graphic Design</h3>
+                <img
+                    src="images/graphic-design.jpg"
+                    alt="Graphic design workspace with color palettes and creative layouts"
+                    width="400"
+                    height="250"
+                >
+                <p>
+                    Develop visual communication skills through
+                    typography, color theory, layout design, and
+                    digital creative projects.
+                </p>
+                <p><strong>Department:</strong> Arts and Design</p>
+                <p><strong>Level:</strong> Beginner</p>
+                <p><strong>Credits:</strong> 5 ECTS</p>
+                <p><a href="course-details.html?course=graphic-design">View Details: Graphic Design</a></p>
+            </article>
+
+            <article id="software-engineering">
+                <h3>Software Engineering</h3>
+                <img
+                    src="images/software-engineering.jpg"
+                    alt="Software developer working on a programming project"
+                    width="400"
+                    height="250"
+                >
+                <p>
+                    Learn software development life cycles, requirements
+                    analysis, testing, system design, and collaborative
+                    software project management.
+                </p>
+                <p><strong>Department:</strong> Computer Science and Engineering</p>
+                <p><strong>Level:</strong> Advanced</p>
+                <p><strong>Credits:</strong> 7 ECTS</p>
+                <p><a href="course-details.html?course=software-engineering">View Details: Software Engineering</a></p>
+            </article>
+
+            <article id="computer-networks">
+                <h3>Computer Networks</h3>
+                <img
+                    src="images/computer-networks.jpg"
+                    alt="Network switches and connected cables in a computer laboratory"
+                    width="400"
+                    height="250"
+                >
+                <p>
+                    Discover network architecture, communication
+                    protocols, IP addressing, and the technologies
+                    that connect computers across the internet.
+                </p>
+                <p><strong>Department:</strong> Computer Science and Engineering</p>
+                <p><strong>Level:</strong> Intermediate</p>
+                <p><strong>Credits:</strong> 6 ECTS</p>
+                <p><a href="course-details.html?course=computer-networks">View Details: Computer Networks</a></p>
+            </article>
+
+            <article id="mathematics">
+                <h3>Applied Mathematics</h3>
+                <img
+                    src="images/applied-mathematics.jpg"
+                    alt="Mathematical equations written on a classroom whiteboard"
+                    width="400"
+                    height="250"
+                >
+                <p>
+                    Strengthen your mathematical reasoning through
+                    algebra, functions, probability, and mathematical
+                    methods used in science and computing.
+                </p>
+                <p><strong>Department:</strong> Engineering</p>
+                <p><strong>Level:</strong> Intermediate</p>
+                <p><strong>Credits:</strong> 5 ECTS</p>
+                <p><a href="course-details.html?course=applied-mathematics">View Details: Applied Mathematics</a></p>
+            </article>
+
+            <article id="project-management">
+                <h3>Project Management</h3>
+                <img
+                    src="images/project-management.jpg"
+                    alt="Team collaborating around a table to plan a project"
+                    width="400"
+                    height="250"
+                >
+                <p>
+                    Learn how to define project goals, manage resources,
+                    assess risks, organize teams, and deliver projects
+                    within agreed schedules and budgets.
+                </p>
+                <p><strong>Department:</strong> Business and Management</p>
+                <p><strong>Level:</strong> Advanced</p>
+                <p><strong>Credits:</strong> 5 ECTS</p>
+                <p><a href="course-details.html?course=project-management">View Details: Project Management</a></p>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CampusHub University Portal. All rights reserved.</p>
+
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
